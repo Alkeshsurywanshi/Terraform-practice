@@ -1,0 +1,20 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Private keys
+*.pem
+*.key
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
